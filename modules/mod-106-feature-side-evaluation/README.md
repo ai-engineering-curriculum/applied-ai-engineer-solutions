@@ -1,0 +1,5 @@
+# mod-106-feature-side-evaluation: Feature-Side Evaluation: Offline, Online, and In CI — Solutions
+
+Reference implementations + per-exercise walkthroughs land here.
+
+Run `aicg audit --repo <this-repo>` to see which exercises still need solutions; `aicg org daily` will plan and queue work items.
