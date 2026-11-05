@@ -68,7 +68,7 @@ A tier scoring ≤ 2 on any axis the spec cares about is disqualified for that r
 
 **Open items:**
 
-- `<!-- research-pending: current per-million-token price for the chosen T1 and T2 models from the provider's published pricing page on the day of merge --> `
+- `<!-- research-pending: current per-million-token price for the chosen T1 and T2 models from the provider's published pricing page on the day of merge -->`
 - Confirm whether the chosen T2 supports the structured-output primitive the shape depends on; if not, treat the fallback as a shape downgrade ([[exercise-01]] shape 4), not just a model swap.
 
 ### 2d. The hard rules a passing note must obey
