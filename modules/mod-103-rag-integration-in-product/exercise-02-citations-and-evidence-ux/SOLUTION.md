@@ -491,7 +491,7 @@ A submission scoring < 6 is rejected and sent back for a second pass. The two va
 
 - **Treating `GroundedAnswer` as a loose dict.** Without the validators, the model will eventually emit a "best of both worlds" output (some sentences + an `unsupported_reason`) and the render will silently drop one side. The validators turn that into a loud parse failure.
 - **Letting the model see URLs.** If the prompt includes `doc_url`, the model will fabricate URLs when it hallucinates citations. Pass `P<n>` only; map to URL at render time.
-- **A trailing Sources list.** "Policy X says Y and Z. [1][2]" is not sentence-level grounding — the reader cannot tell which claim [1] supports. Enforce `supported_by` per-sentence; see [Chapter 03].
+- **A trailing Sources list.** "Policy X says Y and Z. `[1][2]`" is not sentence-level grounding — the reader cannot tell which claim `[1]` supports. Enforce `supported_by` per-sentence; see [Chapter 03].
 - **Mixing "no good evidence" into the error path.** A try/except around the generator that renders a toast is wrong. `no_good_evidence` is a return value, not an exception.
 - **De-duplicating on passage_id instead of doc_id.** Two chunks of the same policy doc should be one evidence card. De-duplicating on `passage_id` leaves the panel cluttered and lies about coverage.
 - **Rendering a forbidden-doc reason verbatim.** "Cites passage P5 that user cannot access" is an existence oracle. The user-visible reason must be opaque; the internal log can be specific.
