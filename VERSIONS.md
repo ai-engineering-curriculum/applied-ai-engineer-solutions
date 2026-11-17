@@ -12,3 +12,4 @@
 | 2026-11-12 | `fill-mod-106-feature-side-evaluation-solutions` | `mod-106-feature-side-evaluation` | Fill mod-106-feature-side-evaluation module exercise solutions |
 | 2026-11-13 | `fill-mod-108-model-routing-and-provider-selection-solutions` | `mod-108-model-routing-and-provider-selection` | Fill mod-108-model-routing-and-provider-selection module exercise solutions |
 | 2026-11-14 | `fill-mod-109-cost-latency-slos-for-llm-features-solutions` | `mod-109-cost-latency-slos-for-llm-features` | Fill mod-109-cost-latency-slos-for-llm-features module exercise solutions |
+| 2026-11-16 | `fill-mod-110-observability-feedback-and-incidents-solutions` | `mod-110-observability-feedback-and-incidents` | Fill mod-110-observability-feedback-and-incidents module exercise solutions |
