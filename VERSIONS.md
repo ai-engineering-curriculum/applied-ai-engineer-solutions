@@ -14,3 +14,4 @@
 | 2026-11-14 | `fill-mod-109-cost-latency-slos-for-llm-features-solutions` | `mod-109-cost-latency-slos-for-llm-features` | Fill mod-109-cost-latency-slos-for-llm-features module exercise solutions |
 | 2026-11-16 | `fill-mod-110-observability-feedback-and-incidents-solutions` | `mod-110-observability-feedback-and-incidents` | Fill mod-110-observability-feedback-and-incidents module exercise solutions |
 | 2026-11-17 | `fill-mod-111-shipping-experimenting-and-rollbacks-solutions` | `mod-111-shipping-experimenting-and-rollbacks` | Fill mod-111-shipping-experimenting-and-rollbacks module exercise solutions |
+| 2026-11-18 | `fill-mod-112-owning-an-applied-ai-feature-end-to-end-solutions` | `mod-112-owning-an-applied-ai-feature-end-to-end` | Fill mod-112-owning-an-applied-ai-feature-end-to-end module exercise solutions |
